@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Medicine</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  
+  <header class="header">
+
+    <a href="index.html" class="logo"> <i class="fas fa-heartbeat"></i> Medicare </a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="service.html">services</a>
+        <a href="about.html">about</a>
+        <a href="book.html">doctors</a>
+        <a href="book.html">book</a>
+        <a href="review.html">review</a>
+        <a href="blog/blog.html">blogs</a>
+        <a href="drugs.html">Drugs</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+  <section>
+    <div class="container">
+      <h1 class="text-center mt-4 mb-4">DRUGS SEARCH</h1>
+      <form class="form-inline d-flex justify-content-center mb-4">
+        <input type="text" id="search" name="search" placeholder="Enter a search term" class="btn btn-secondary"/>
+        <input type="submit" class="btn btn-secondary" value="Search Drug!" />
+        <button id="remove" class="btn btn-danger ml-2">Remove Result</button>
+        <button onclick="window.location.href='E-Pharmacy.html';" class="btn btn-danger ml-2">E-Pharmacy</Pharmacy></button>
+        <button onclick="window.location.href='fileUplaod.html';" class="btn btn-danger ml-2">Transcript Upload</button>
+
+      </form>
+      <div id="gif-area" class="row">
+      </div>
+
+    <!--hello-->
+        <div class="wrapper">
+            <div class="search-input">
+              <a href="" target="_blank" hidden></a>
+              <input type="text" placeholder="Pharmacy Search">
+              <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+              </div>
+              <div class="icon"><i class="fas fa-search"></i></div>
+              
+            </div>
+            
+        </div>
+          <script src="js/suggestion.js"></script>
+          <script src="js/search.js"></script>
+    
+       <div>
+        --->
+       </div>
+    
+    
+        <div class="wrapper">
+          
+          <div class="card">
+            <img src="image/a.webp" alt="">
+            <div class="content">
+              <div class="row">
+                <div class="details">
+                  <span>Acetaminophen</span>
+                  <p>Medicine for relieves pain and fever</p>
+                </div>
+                <div class="price">$10</div>
+              </div>
+              <div class="buttons">
+                <button onclick="window.location.href='checkout.html';" class="btn btn-danger ml-2">Buy now</button>
+              
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="image/b.webp" alt="">
+            <div class="content">
+              <div class="row">
+                <div class="details">
+                  <span>Bactrim</span>
+                  <p>Treating diarrhea Medicine </p>
+                </div>
+                <div class="price">$15</div>
+              </div>
+              <div class="buttons">
+                <button onclick="window.location.href='checkout.html';" class="btn btn-danger ml-2">Buy now</button>
+             
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="image/c.webp" alt="">
+            <div class="content">
+              <div class="row">
+                <div class="details">
+                  <span>Azithromycin</span>
+                  <p>treating  bacterial infections Medicine</p>
+                </div>
+                <div class="price">$20</div>
+              </div>
+              <div class="buttons">
+                <button onclick="window.location.href='checkout.html';" class="btn btn-danger ml-2">Buy now</button>
+                
+              </div>
+            </div>
+          </div>
+        
+        </div>
+    
+        <script src="js/store.js"></script>
+
+    
+   
+  </section>
+  
+  <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="service.html"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="about.html"> <i class="fas fa-chevron-right"></i> about </a>
+            <a href="book.html"> <i class="fas fa-chevron-right"></i> doctors </a>
+            <a href="book.html"> <i class="fas fa-chevron-right"></i> book </a>
+            <a href="review.html"> <i class="fas fa-chevron-right"></i> review </a>
+            <a href="blog/blog.html"> <i class="fas fa-chevron-right"></i> blogs </a>
+            <a href="drugs.html"> <i class="fas fa-chevron-right"></i> Drugs </a>
+        </div>
+
+        <div class="box">
+            <h3>our services</h3>
+            <a href="service.html"> <i class="fas fa-chevron-right"></i> Free Covid-19 checkup </a>
+            <a href="service.html"> <i class="fas fa-chevron-right"></i> 24/7 Ambulance </a>
+            <a href="service.html"> <i class="fas fa-chevron-right"></i> Meeet Expert Doctors </a>
+            <a href="service.html"> <i class="fas fa-chevron-right"></i> Medicines Delivery </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="tel:+855969453134"> <i class="fas fa-phone"></i> +855969453134 </a>
+            <a href="tel:++85512628461"> <i class="fas fa-phone"></i> ++85512628461 </a>
+            <a href="mailto:2021180ma@aupp.edu.kh"> <i class="fas fa-envelope"></i> 2021180ma@aupp.edu.kh </a>
+            <a href="mailto:2021320meas@aupp.edu.kh"> <i class="fas fa-envelope"></i> 2021320meas@aupp.edu.kh </a>
+            <a href="https://goo.gl/maps/ChLwrzrycGLx9sDg9"> <i class="fas fa-map-marker-alt"></i> Kilometer 6, 278H Street 201R Kroalkor Village, Sangkat, Phnom Penh</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-tiktok"></i> tiktok </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> &copy; Copyright 2022 Medicare, All Rights Reserved. </div>
+
+</section>
+
+<!-- CHAT BAR BLOCK -->
+<div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">Chat with us!
+        <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+
+    <div class="content1">
+        <div class="full-chat-block">
+            <!-- Message Container -->
+            <div class="outer-container">
+                <div class="chat-container">
+                    <!-- Messages -->
+                    <div id="chatbox">
+                        <h5 id="chat-timestamp"></h5>
+                        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                    </div>
+
+                    <!-- User input box -->
+                    <div class="chat-bar-input-block">
+                        <div id="userInput">
+                            <input id="textInput" class="input-box" type="text" name="msg" placeholder="Tap 'Enter' to send a message">
+                            <p></p>
+                        </div>
+
+                        <div class="chat-bar-icons">
+                            <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
+                            <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send" onclick="sendButton()"></i>
+                        </div>
+                    </div>
+
+                    <div id="chat-bar-bottom">
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous">
+  </script>
+  <script src="js/app.js"></script>
+  <script src="js/javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/responses.js"></script>
+  <script src="js/chat.js"></script>
+
+
+</body>
+</html>
