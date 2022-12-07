@@ -14,6 +14,6 @@ function getBotResponse(input) {
     } else if (input == "goodbye") {
         return "Talk to you later!";
     } else {
-        return "Try asking something else!";
+        return "Go to the naivgation bar and you will see the book appointment. There you will be able to see the doctor for cancer. Anything else ";
     }
 }
